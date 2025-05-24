@@ -1,0 +1,48 @@
+.simple-appointment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #e0e7ff; /* bg-indigo-100 */
+  color: #3730a3; /* text-indigo-800 */
+  padding: 0.75rem 1rem;
+  border-radius: 1rem; /* rounded-2xl */
+  width: 100%;
+  max-width: 20rem; /* max-w-xs */
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+  font-size: 0.875rem; /* text-sm */
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .simple-appointment-card {
+    flex-direction: row;
+    align-items: center;
+    max-width: 24rem; /* sm:max-w-sm */
+  }
+}
+
+@media (min-width: 768px) {
+  .simple-appointment-card {
+    max-width: 28rem; /* md:max-w-md */
+  }
+}
+
+.simple-appointment-card-title {
+  font-weight: 600;
+}
+
+.simple-appointment-card-time {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.simple-appointment-card-icon {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .simple-appointment-card-icon {
+    margin-left: 1rem;
+  }
+}
