@@ -1,41 +1,41 @@
 .health-status-cards-container {
   width: 100%;
-  max-width: 20rem; /* max-w-xs */
+  max-width: 20rem; 
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  gap: 1rem; /* space-y-4 */
-  font-size: 0.875rem; /* text-sm */
-  color: #4b5563; /* text-gray-600 */
+  gap: 1rem; 
+  font-size: 0.875rem; 
+  color: #4b5563; 
 }
 
 @media (min-width: 640px) {
   .health-status-cards-container {
-    max-width: 24rem; /* sm:max-w-sm */
+    max-width: 24rem; 
   }
 }
 @media (min-width: 768px) {
   .health-status-cards-container {
-    max-width: 20rem; /* md:max-w-xs */
+    max-width: 20rem; 
   }
 }
 @media (min-width: 1024px) {
   .health-status-cards-container {
-    max-width: 24rem; /* lg:max-w-sm */
+    max-width: 24rem; 
   }
 }
 @media (min-width: 1280px) {
   .health-status-cards-container {
-    max-width: 28rem; /* xl:max-w-md */
+    max-width: 28rem; 
   }
 }
 
 .health-status-cards-select-row {
   display: flex;
   justify-content: flex-end;
-  font-size: 0.75rem; /* text-xs */
-  color: #6366f1; /* text-indigo-500 */
+  font-size: 0.75rem; 
+  color: #6366f1; 
   font-weight: 500;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -43,7 +43,7 @@
 
 .health-status-cards-select {
   border-radius: 0.375rem;
-  border: 1px solid #e0e7ff; /* border-indigo-100 */
+  border: 1px solid #e0e7ff; 
   padding: 0.25rem 0.5rem;
   background: #fff;
 }
@@ -52,7 +52,7 @@
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
   border-radius: 0.75rem;
   padding: 1rem;
-  background: #eff6ff; /* bg-blue-50 */
+  background: #eff6ff; 
   width: 80%;
 }
 
@@ -63,24 +63,24 @@
 }
 
 .health-status-card-icon {
-  font-size: 1.875rem; /* text-3xl */
+  font-size: 1.875rem;
 }
 
 .health-status-card-title {
   font-weight: 600;
-  color: #1f2937; /* text-gray-800 */
+  color: #1f2937; 
 }
 
 .health-status-card-date {
   font-size: 0.75rem;
-  color: #9ca3af; /* text-gray-400 */
+  color: #9ca3af; 
 }
 
 .health-status-card-progress-bg {
   margin-top: 1rem;
   height: 0.5rem;
   width: 100%;
-  background: #e5e7eb; /* bg-gray-200 */
+  background: #e5e7eb; 
   border-radius: 9999px;
   overflow: hidden;
 }
@@ -93,7 +93,7 @@
 .health-status-cards-details-row {
   text-align: right;
   font-size: 0.75rem;
-  color: #6366f1; /* text-indigo-500 */
+  color: #6366f1; 
   font-weight: 500;
   padding-left: 0.25rem;
   padding-right: 0.25rem;

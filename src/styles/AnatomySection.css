@@ -1,7 +1,7 @@
 .anatomy-section-container {
   padding: 1rem;
   width: 100%;
-  max-width: 28rem; /* max-w-md */
+  max-width: 28rem; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@
 .anatomy-section-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1f2937; /* text-gray-800 */
+  color: #1f2937; 
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -24,7 +24,7 @@
 .anatomy-section-image {
   width: 100%;
   height: auto;
-  max-height: 24rem; /* max-h-96 */
+  max-height: 24rem; 
   border-radius: 0.5rem;
   object-fit: contain;
 }

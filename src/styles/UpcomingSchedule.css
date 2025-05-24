@@ -1,6 +1,6 @@
 .upcoming-schedule-container {
   width: 100%;
-  max-width: 42rem; /* max-w-2xl */
+  max-width: 42rem; 
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
@@ -18,7 +18,7 @@
 .upcoming-schedule-title {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #3730a3; /* text-indigo-900 */
+  color: #3730a3; 
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -35,7 +35,7 @@
 
 .upcoming-schedule-section-label {
   font-size: 0.875rem;
-  color: #6b7280; /* text-gray-500 */
+  color: #6b7280; 
   font-weight: 500;
   margin-bottom: 0.75rem;
 }

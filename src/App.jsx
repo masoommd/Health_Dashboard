@@ -3,7 +3,6 @@ import Header from './components/Header.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import DashboardMainContent from './components/DashboardMainContent.jsx'
 import Calendar from './components/Calendar.jsx'
-import UpcomingSchedule from './components/UpcomingSchedule.jsx'
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
           <div className="flex-shrink-0">
             <Sidebar />
           </div>
-          {/* Main content and calendar side by side on desktop, stacked on mobile */}
+          
           <div className="flex flex-col md:flex-row flex-grow gap-4">
             <div className="flex-grow flex flex-col">
               <DashboardMainContent />
